@@ -1,0 +1,25 @@
+{
+    "name": "dmb/manual-paginator",
+    "description": "A simple way to paginate manually eloquent collections.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Maria Busi",
+            "email": "davidemaria.busi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dmb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dmb\\Manualpaginator\\PaginatorServiceProvider"
+            ]
+        }
+    }
+}
